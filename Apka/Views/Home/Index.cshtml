@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Witamy w Sklepie Internetowym</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Produkty</h2>
+        <h4>@Html.ActionLink("Products", "Index", "Products1")</h4>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Sprzedaż</h2>
+        <h4>
+            @Html.ActionLink("Orders", "Index", "Orders1")</h4>
+                <h4>@Html.ActionLink("Sells", "Index", "Sells1")</h4>
+    </div>
+    <div class="col-md-4">
+        <h2>Management</h2>
+        <h4>
+            @Html.ActionLink("Customers", "Index", "Customers1")</h4>
+                <h4>@Html.ActionLink("Employees", "Index", "Empleyees")</h4>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+
+        <div class="jumbotron">
+            <button onclick="doWork(); return false;">REST</button>
+        </div>
+
+        <script type="text/javascript">
+            function doWork() {
+                console.info("Hello");
+            }
+        </script>
+
+    </div>
+</div>

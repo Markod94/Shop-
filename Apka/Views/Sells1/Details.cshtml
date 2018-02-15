@@ -1,0 +1,58 @@
+﻿@model DataAccess.Sell
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sell</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateSell)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateSell)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Empleyee.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Empleyee.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.Title)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SellID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

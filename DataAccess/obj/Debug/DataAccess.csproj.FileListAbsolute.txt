@@ -1,0 +1,10 @@
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\DataAccess.dll.config
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\DataAccess.dll
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\DataAccess.pdb
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\EntityFramework.dll
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\EntityFramework.xml
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\obj\Debug\DataAccess.dll
+c:\Users\Marek\documents\visual studio 2015\Projects\Apka\DataAccess\obj\Debug\DataAccess.pdb
